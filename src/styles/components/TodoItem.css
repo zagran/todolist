@@ -11,8 +11,12 @@
 }
 
 .todo-item.completed {
-    text-decoration: line-through;
     color: #888;
+}
+
+.todo-item.completed .todo-text {
+    color: green;
+    text-decoration: line-through;
 }
 
 .todo-item .checkbox {
